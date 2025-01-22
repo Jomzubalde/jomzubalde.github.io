@@ -28,6 +28,8 @@ input {
 }
 
 input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
     height: 40px;
     width: 150px;
     line-height: 30px;
