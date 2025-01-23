@@ -8,6 +8,33 @@ div.search-box {
     text-align: center;
 }
 
+/* search bar */
+.searchbar {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+svg {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#sbar {
+    background-color: #d3d3d3;
+    display: flex;
+    border: 0px;
+}
+
+#sbar::after {
+    border: 0px;
+}
+
 .upper-r {
     text-align: right;
     margin-top: 15px;
@@ -26,30 +53,8 @@ a:hover {
     text-decoration: underline;
 }
 
-
-input {
-    /*background-color: #afafaf;*/
-    padding: 5px 30px;
-}
-
-
 label {
     position: relative;
-}
-
-#sbar {
-    resize: none;
-    background-color: #e9e9e9;
-    border: none;
-    border-radius: 40px;
-    height: 45px;
-    outline: none;
-    width: 530px;
-}
-
-
-#sbar:hover {
-    background-color: #d3d3d3;
 }
 
 .sb {
