@@ -10,35 +10,86 @@
             <a href="imghp.html">Google Image Search</a>
             <a href="advance_search.html">Google Advanced Search</a>
         </div>
-
+        
         <div class="adv">
             <label>Advanced Search</label>
         </div>
 
         <hr>
-
         <div class="container">
-            <div class="headrow">
-                <span>Find pages with...</span>
-            </div>
+            <form action="https://google.com/search" name="f">
+                <div class="firstfield">
+                    <div class="field" id="field01">
+                        <div class="left">
+                            <label for="field">Find pages with...</label>
+                        </div>
 
-            <div class="rw-1">
-                <span>all these words:</span>
-                <input class="inp-1">
-            </div>
+                        <div class="right">
+                            <input type="text" class="textinput" id="field0" value=""  name="as_q">
+                        </div>
+                    </div>
 
-            <div class="rw-2">
-                <span>this exact word or phrase:</span>
-            </div>
+                    <br>
 
-            <div class="rw-3">
-                <span>any of these words:</span>
-            </div>
+                    <div class="field">
+                        <div class="left">
+                            <label for="field1">all these words:</label>
+                        </div>
 
-            <div class="rw-3">
-                <span>any of these words:</span>
-            </div>
+                        <div class="right">
+                            <input type="text" class="textinput" id="field1" value=""  name="as_q">
+                        </div>
+                    </div>
 
+                    <br>
+
+                    <div class="field">
+                        <div class="left">
+                            <label for="field2">this exact word or phrase: </label>
+                        </div>
+                        <div class="right">
+                            <input type="text" class="textinput" id="field2" value=""  name="as_epq">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="field">
+                        <div class="left">
+                            <label for="field3">any of this words: </label>
+                        </div>
+                        <div class="right">
+                            <input type="text" class="textinput" id="field3" value=""  name="as_oq">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="field">
+                        <div class="left">
+                            <label for="field4">none of these words: </label>
+                        </div>
+                        <div class="right">
+                            <input type="text" class="textinput" id="field4" value=""  name="as_eq">
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="field">
+                        <div class="left">
+                            <label for="field5">numbers ranging from: </label>
+                        </div>
+                        <div class="right">
+                            <input type="text" class="textinput1" id="field5" value=""  name="as_nlo">
+                                <span class="seperator">to</span>
+                            <input type="text" class="textinput2" id="field5" value=""  name="as_nhi">
+                        </div>
+                    </div>
+                    
+                    <input type="submit" value="advanced search">
+                </div>
+            </form>
         </div>
     </body>
 </html>
